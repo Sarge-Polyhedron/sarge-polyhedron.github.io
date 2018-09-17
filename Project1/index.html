@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Project1</title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+		<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/img/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+		<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:400,500&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+		<!-- Стили -->
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+<body>
+
+	<div class="container-fluid section">
+		<div class="left_bar">
+			<a class="logo""><img src="img/logo.png" alt="logo"></a>
+
+			<div class="menu">
+				<ul>
+					<li class="alertmenu"><a href="#"><i class="fa fa-calendar"></i></a></li>
+					<li><a href="#"><i class="fa fa-user"></i></a></li>
+					<li><a href="#"><i class="fa fa-wrench"></i></a></li>
+					<li><a href="#"><i class="fa fa-users"></i></a></li>
+					<li class="active"><a href="#"><i class="fa fa-envelope"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="topbar">
+
+			<div class="topbar_crumbs">
+				<span>Home</span><img src="img/arrow.svg"><span>Network</span>
+			</div>
+
+
+			<div class="topbar_user" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<div class="topbar_user_img"><img src="img/top_user.png" alt="top_user"></div>
+				<p>Sarah Freeman</p><img class="topbar_user_arrow" src="img/arrow_down.svg">
+			</div>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+		    <a class="dropdown-item" href="#">Miranda Hops</a>
+		    <a class="dropdown-item" href="#">Barry Callebaut</a>
+			 </div>
+		</div>
+
+		<div class="wrap">
+
+			<div class="cblock">
+
+				<div id="Scrollone" class="cleft">
+
+					<div class="cleft_user tab">
+						<div class="cleft_user_img"><img src="img/user1.png" alt="user1"></div>
+						<div class="cleft_user_text">
+							<h4 class="dotted mutted">Miranda Hops</h4>
+							<p>Excepteur sint occaecatar…</p>
+						</div>
+						<span>9:32</span>
+					</div>
+
+					<div class="cleft_user tab">
+						<div class="cleft_user_img"><img src="img/user2.png" alt="user2"></div>
+						<div class="cleft_user_text">
+							<h4 class="dotted">Barry Callebaut</h4>
+							<p>Nemo enim ipsam volupta…</p>
+						</div>
+						<span>22:01</span>
+					</div>
+
+					<div class="cleft_user tab">
+						<div class="cleft_user_img"><img src="img/user3.png" alt="user3"></div>
+						<div class="cleft_user_text">
+							<h4>Stacey Dosh</h4>
+							<p>Ut enim ad minima veniam…</p>
+						</div>
+						<span>19:15</span>
+					</div>
+
+					<div class="cleft_user tab">
+						<div class="cleft_user_img"><img src="img/user4.png" alt="user4"></div>
+						<div class="cleft_user_text">
+							<h4>Michael Kors</h4>
+							<p>To take a trivial example…</p>
+						</div>
+						<span>13:49</span>
+					</div>
+
+					<div class="cleft_user tab">
+						<div class="cleft_user_img"><img src="img/user5.png" alt="user5"></div>
+						<div class="cleft_user_text">
+							<h4 class="dotted">Johny Cash</h4>
+							<p>Great explorer of the truth…</p>
+						</div>
+						<span>10:25</span>
+					</div>
+
+					<div class="cleft_user tab">
+						<div class="cleft_user_img"><img src="img/user6.png" alt="user6"></div>
+						<div class="cleft_user_text">
+							<h4>Stacey Dosh</h4>
+							<p>Ut enim ad minima veniam…</p>
+						</div>
+						<span>8:53</span>
+					</div>
+					
+				</div>
+
+<!-- Right Central -->
+
+				<div class="cright">
+
+					<div class="cright_search">
+						<button type="submit"><i class="fa fa-search"></i></button>
+						<input type="text" placeholder="Search message...">
+					</div>
+
+<!-- ==========ДИАЛОГОВОН ОКНО============ -->
+
+					<div id="Scrolltwo" class="cright_dialogue tab_item">
+
+											<!-- 1 -->
+						<div class="media cright_dialogue_left">
+						  <div class="align-self-end mr-3 portrait_block" style="background-image: url(img/user1.png);"></div>
+						  <div class="media-body">
+						    <p>On the other hand, we denounce with righteous indignation! </p>
+						    <span>10:25</span>
+						  </div>
+						</div>
+
+						<div class="media cright_dialogue_right">
+						  <div class="media-body">
+						    <p>Which is the same as saying?</p>
+						    <span>10:26</span>
+						  </div>
+						</div>
+
+						<div class="media cright_dialogue_left">
+						  <div class="align-self-end mr-3 portrait_block" style="background-image: url(img/user1.png);"></div>
+						  <div class="media-body">
+						    <p>But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures </p>
+						    <span>10:28</span>
+						  </div>
+						</div>
+
+						<div class="media cright_dialogue_right">
+						  <div class="media-body">
+						    <p>To take a trivial example, which of us ever undertakes)</p>
+						    <span>10:30</span>
+						  </div>
+						</div>
+
+						<div class="media cright_dialogue_left">
+						  <div class="align-self-end mr-3 portrait_block" style="background-image: url(img/user1.png);"></div>
+						  <div class="media-body">
+						    <p>On the other hand, we denounce with righteous indignation! </p>
+						    <span>10:25</span>
+						  </div>
+						</div>
+
+						<div class="media cright_dialogue_right">
+						  <div class="media-body">
+						    <p>Which is the same as saying?</p>
+						    <span>10:26</span>
+						  </div>
+						</div>
+
+						<div class="media cright_dialogue_left">
+						  <div class="align-self-end mr-3 portrait_block" style="background-image: url(img/user1.png);"></div>
+						  <div class="media-body">
+						    <p>But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures </p>
+						    <span>10:28</span>
+						  </div>
+						</div>
+
+						<div class="media cright_dialogue_right">
+						  <div class="media-body">
+						    <p>To take a trivial example, which of us ever undertakes)</p>
+						    <span>10:30</span>
+						  </div>
+						</div>
+
+					</div>
+
+											<!-- 2-->
+					<div class="cright_dialogue tab_item">
+
+						<div class="media cright_dialogue_left">
+						  <div class="align-self-end mr-3 portrait_block" style="background-image: url(img/user1.png);"></div>
+						  <div class="media-body">
+						    <p>2222222222222222222222222222222</p>
+						    <span>10:25</span>
+						  </div>
+						</div>
+
+						<div class="media cright_dialogue_right">
+						  <div class="media-body">
+						    <p>Which is the same as saying?</p>
+						    <span>10:26</span>
+						  </div>
+						</div>
+
+					</div>
+											<!-- 3-->
+					<div class="cright_dialogue tab_item">
+
+						<div class="media cright_dialogue_left">
+						  <div class="align-self-end mr-3 portrait_block" style="background-image: url(img/user1.png);"></div>
+						  <div class="media-body">
+						    <p>333333333333333333333333333333333333</p>
+						    <span>10:25</span>
+						  </div>
+						</div>
+
+						<div class="media cright_dialogue_right">
+						  <div class="media-body">
+						    <p>Which is the same as saying?</p>
+						    <span>10:26</span>
+						  </div>
+						</div>
+
+					</div>
+											<!-- 4-->
+					<div class="cright_dialogue tab_item">
+
+						<div class="media cright_dialogue_left">
+						  <div class="align-self-end mr-3 portrait_block" style="background-image: url(img/user1.png);"></div>
+						  <div class="media-body">
+						    <p>4444444444444444444444444444444444</p>
+						    <span>10:25</span>
+						  </div>
+						</div>
+
+						<div class="media cright_dialogue_right">
+						  <div class="media-body">
+						    <p>Which is the same as saying?</p>
+						    <span>10:26</span>
+						  </div>
+						</div>
+
+					</div>
+											<!-- 5-->
+					<div class="cright_dialogue tab_item">
+
+						<div class="media cright_dialogue_left">
+						  <div class="align-self-end mr-3 portrait_block" style="background-image: url(img/user1.png);"></div>
+						  <div class="media-body">
+						    <p>555555555555555555555555555555555</p>
+						    <span>10:25</span>
+						  </div>
+						</div>
+
+						<div class="media cright_dialogue_right">
+						  <div class="media-body">
+						    <p>Which is the same as saying?</p>
+						    <span>10:26</span>
+						  </div>
+						</div>
+
+					</div>
+
+											<!-- 6-->
+					<div class="cright_dialogue tab_item">
+
+						<div class="media cright_dialogue_left">
+						  <div class="align-self-end mr-3 portrait_block" style="background-image: url(img/user1.png);"></div>
+						  <div class="media-body">
+						    <p>6666666666666666666666666666666666666</p>
+						    <span>10:25</span>
+						  </div>
+						</div>
+
+						<div class="media cright_dialogue_right">
+						  <div class="media-body">
+						    <p>Which is the same as saying?</p>
+						    <span>10:26</span>
+						  </div>
+						</div>
+
+					</div>
+
+<!-- ==========ДИАЛОГОВОН ОКНО============ -->
+
+
+
+					<div class="cright_message">
+						<input type="text" placeholder="Write a message…">
+						<button><i class="fa fa-laugh-squint "></i></button>
+						<button><i class="fa fa-paperclip"></i></button>
+						<button class="cright_message_submit" type="submit"><i class="fa fa-paper-plane"></i></button>
+					</div>
+				</div>
+			</div><!--  cblock -->
+		</div><!-- Wrap -->
+
+	</div><!-- SECTION -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="js/scripts.min.js"></script>
+
+
+</body>
+</html>
