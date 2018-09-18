@@ -49,10 +49,11 @@ button:focus {
 
 .left_bar {
   background-color: #01134E;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   height: 100%;
+  min-height: 520px;
   width: 80px;
   z-index: 10; }
 
@@ -391,7 +392,8 @@ button:focus {
 @media only screen and (max-width: 768px) {
   .cblock {
     width: 100%;
-    max-height: 95vh;
+    max-height: 92vh;
+    min-height: 480px;
     margin-top: 40px;
     margin-left: 0;
     padding-left: 40px;
@@ -406,15 +408,15 @@ button:focus {
             flex-direction: column; }
     .cblock .cleft {
       border-bottom: 1px solid #EDF0F4;
-      min-height: 30vh;
-      max-height: 30vh; }
+      min-height: 120px;
+      height: 30vh; }
       .cblock .cleft_user {
         padding: 12px 20px 8px 20px; }
         .cblock .cleft_user_text p {
           display: block; }
     .cblock .cright {
-      min-height: 62vh;
-      max-height: 62vh; }
+      min-height: 360px;
+      height: 62vh; }
   .cright_dialogue_right .media-body, .cright_dialogue_left .media-body {
     max-width: 320px; }
     .cright_dialogue_right .media-body p, .cright_dialogue_left .media-body p {
