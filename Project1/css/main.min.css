@@ -81,6 +81,21 @@ button:focus {
           color: #8089A6;
           line-height: 50px;
           font-size: 20px; }
+          .menu ul li a i .alertcircle {
+            position: absolute;
+            top: 8px;
+            right: -8px;
+            height: 18px;
+            width: 18px;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            background-color: #2A74DB;
+            color: #fff;
+            font-size: 14px;
+            line-height: 18px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            text-align: center; }
     .menu ul .active::before {
       content: '';
       position: absolute;
@@ -88,20 +103,6 @@ button:focus {
       height: 100%;
       width: 4px;
       background-color: #0AD69C; }
-    .menu ul .alertmenu::after {
-      text-align: center;
-      line-height: 19px;
-      color: #fff;
-      font-size: 14px;
-      content: '1';
-      position: absolute;
-      right: 5px;
-      top: 8px;
-      height: 19px;
-      width: 19px;
-      -webkit-border-radius: 50%;
-              border-radius: 50%;
-      background-color: #2A74DB; }
     .menu ul li:hover a i {
       color: #fff; }
 
@@ -384,9 +385,7 @@ button:focus {
       font-size: 14px;
       max-width: 250px; }
   .cleft_user {
-    min-width: 240px; }
-    .cleft_user_text p {
-      display: none; } }
+    min-width: 240px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -412,8 +411,6 @@ button:focus {
       height: 30vh; }
       .cblock .cleft_user {
         padding: 12px 20px 8px 20px; }
-        .cblock .cleft_user_text p {
-          display: block; }
     .cblock .cright {
       min-height: 360px;
       height: 62vh; }
